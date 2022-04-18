@@ -1904,9 +1904,65 @@ module.exports = {
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Main.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\resources\\js\\components\\Main.vue: Invalid shorthand property initializer. (28:18)\n\n\u001b[0m \u001b[90m 26 |\u001b[39m     \u001b[36mreturn\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m       posts\u001b[33m:\u001b[39m []\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 28 |\u001b[39m       currentPage \u001b[33m=\u001b[39m \u001b[35m1\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m       \u001b[0m\n\u001b[0m \u001b[90m 30 |\u001b[39m     }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m   }\u001b[33m,\u001b[39m\u001b[0m\n    at instantiate (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:72:32)\n    at constructor (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:358:12)\n    at Parser.raise (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:3334:19)\n    at Parser.checkExpressionErrors (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:4078:12)\n    at Parser.parseMaybeAssign (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12250:12)\n    at Parser.parseExpressionBase (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12149:23)\n    at C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12143:39\n    at Parser.allowInAnd (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:14231:16)\n    at Parser.parseExpression (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12143:17)\n    at Parser.parseReturnStatement (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:14939:28)\n    at Parser.parseStatementContent (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:14582:21)\n    at Parser.parseStatement (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:14528:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:15167:25)\n    at Parser.parseBlockBody (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:15158:10)\n    at Parser.parseBlock (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:15142:10)\n    at Parser.parseFunctionBody (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:13836:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:13820:10)\n    at Parser.parseMethod (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:13770:10)\n    at Parser.parseObjectMethod (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:13646:19)\n    at Parser.parseObjPropValue (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:13687:23)\n    at Parser.parsePropertyDefinition (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:13604:10)\n    at Parser.parseObjectLike (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:13494:21)\n    at Parser.parseExprAtom (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12889:23)\n    at Parser.parseExprSubscripts (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12539:23)\n    at Parser.parseUpdate (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12518:21)\n    at Parser.parseMaybeUnary (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12489:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12283:61)\n    at Parser.parseExprOps (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12290:23)\n    at Parser.parseMaybeConditional (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12260:23)\n    at Parser.parseMaybeAssign (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12213:21)\n    at C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12171:39\n    at Parser.allowInAnd (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:14231:16)\n    at Parser.parseMaybeAssignAllowIn (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:12171:17)\n    at Parser.parseExportDefaultExpression (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:15898:22)\n    at Parser.parseExport (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:15786:31)\n    at Parser.parseStatementContent (C:\\Users\\emanuela\\Desktop\\boolean\\laravel-api\\node_modules\\@babel\\parser\\lib\\index.js:14644:27)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "Main",
+  data: function data() {
+    return {
+      posts: [],
+      currentPage: 1,
+      lastPage: null
+    };
+  },
+  methods: {
+    getPosts: function getPosts(apiPage) {
+      var _this = this;
+
+      axios.get("/api/posts", {
+        'params': {
+          'page': apiPage
+        }
+      }).then(function (response) {
+        _this.currentPage = response.data.results.current_page;
+        _this.posts = response.data.results.data;
+        _this.lastPage = response.data.last_page;
+      });
+    }
+  },
+  created: function created() {
+    this.getPosts();
+  }
+});
 
 /***/ }),
 
@@ -2450,6 +2506,54 @@ var render = function () {
         }),
         0
       ),
+      _vm._v(" "),
+      _c("nav", { attrs: { "aria-label": "Page navigation example" } }, [
+        _c("ul", { staticClass: "pagination" }, [
+          _c(
+            "li",
+            {
+              staticClass: "page-item",
+              class: _vm.currentPage == 1 ? "disabled" : "",
+            },
+            [
+              _c(
+                "span",
+                {
+                  staticClass: "page-link",
+                  on: {
+                    click: function ($event) {
+                      return _vm.getPosts(_vm.currentPage - 1)
+                    },
+                  },
+                },
+                [_vm._v("Precedente")]
+              ),
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            {
+              staticClass: "page-item",
+              class: _vm.currentPage == _vm.lastPage ? "disabled" : "",
+            },
+            [
+              _c(
+                "span",
+                {
+                  staticClass: "page-link",
+                  on: {
+                    click: function ($event) {
+                      return _vm.getPosts(_vm.currentPage + 1)
+                    },
+                  },
+                },
+                [_vm._v("Succesivo")]
+              ),
+            ]
+          ),
+        ]),
+      ]),
     ]),
   ])
 }
